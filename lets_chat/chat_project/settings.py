@@ -83,6 +83,10 @@ CHANNEL_LAYERS = {
     },
 }
 
+# Just remember
+# sudo service redis-server stop (for error : server is already in use)
+# redis-cli ping (Check is redis server is running => PONG(OUTPUT))
+
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
